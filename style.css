@@ -327,8 +327,72 @@ meter::-webkit-meter-optimum-value {
   color: black;
 }
 
+.buy h1 {
+  color: gray;
+}
+
 .buy button {
   background-color: #f3f6f9;
   color: black;
   border: 2px solid #cccccc;
+}
+
+.sign-up {
+  background:
+    linear-gradient(
+      rgba(40, 40, 40, 0.7),
+      rgba(40, 40, 40, 0.7)
+    ),
+    url("img/forest.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    border-radius: 20px;
+}
+
+.three-col-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  padding: 15px 0px;
+}
+
+.three-col-1 h2, .three-col-1 p {
+  margin: 0;
+  text-align: center;
+}
+
+.three-col-1 p {
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: gray;
+  font-size: 12px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.three-col-1 img {
+  height: 100px;
+}
+
+form input {
+  padding: 10px 5px;
+  border: none;
+  width: 300px;
+  border-bottom: 2px solid gray;
+  background-color: rgba(0,0,0,0);
+}
+
+form {
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: gray;
+  font-size: 12px;
+}
+
+.three-col-1 i {
+  margin: 0px 25px;
+  color: gray;
 }
