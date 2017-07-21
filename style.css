@@ -166,7 +166,7 @@ button {
   margin-bottom: 100px;
 }
 
-.story p{
+.story p {
   flex-basis: 30%;
   margin-right: 50px;
 }
@@ -283,4 +283,52 @@ meter::-webkit-meter-optimum-value {
   font-size: 20px;
   font-weight: lighter;
   color: #747474;
+}
+
+.where-are {
+  background-image: url("img/puppy.jpg");
+  background-size: 50%;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-color: #F3F6F9;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.two-col-1 {
+  flex-basis: 40%;
+  padding: 100px;
+}
+
+.two-col-1 h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.two-col-1 h2 {
+  font-size: 18px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  color: #b98e0d;
+  margin: 0;
+}
+
+.two-col-1 img {
+  height: 100px;
+  padding-left: 150px;
+}
+
+.buy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+}
+
+.buy button {
+  background-color: #f3f6f9;
+  color: black;
+  border: 2px solid #cccccc;
 }
