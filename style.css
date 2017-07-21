@@ -67,6 +67,7 @@ nav a, nav p {
   display: flex;
   align-items: center;
   flex-basis: 30%;
+  font-size: 18px;
 }
 
 .search-cart input {
@@ -74,6 +75,17 @@ nav a, nav p {
   border: 2px solid white;
   background-color: rgba(0,0,0,0);
   color: white;
+}
+
+.search-cart p {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: red;
+  padding: 5px 8px;
+  border-radius: 100%;
+  font-size: 12px;
+  position: relative;
+  top: 10px;
+  right: 2px;
 }
 
 .hero {
@@ -163,4 +175,22 @@ button:nth-child(2) {
   max-height: 200px;
   padding-left: 50px;
   margin-right: 25px;
+}
+
+.dog-love {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-1 {
+  flex-basis: 10%;
+  font-family: serif;
+}
+
+.col-2 {
+  flex-basis: 30%;
+}
+
+.col-3 {
+  flex-basis: 60%;
 }
