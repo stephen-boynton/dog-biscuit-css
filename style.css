@@ -1,0 +1,121 @@
+body {
+  background-color: #282828;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: 0px auto;
+  border-radius: 20px;
+  padding: 0;
+}
+
+header {
+  background:
+    linear-gradient(
+      rgba(40, 40, 40, 0.5),
+      rgba(40, 40, 40, 0.5)
+    ),
+    url("img/wall-animal-dog-pet.jpg");
+  background-size: 100%;
+  background-position: 0 50%;
+  height: 700px;
+  padding: 15px;
+  border-radius: 20px;
+  margin: 0;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.logo-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 35px;
+}
+
+.logo-nav > img {
+  height: 50px;
+  margin: 20px;
+}
+
+nav {
+  display: flex;
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+nav a, nav p {
+  color: gray;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.active {
+  color: white;
+  border-bottom: 2px solid #b98e0d;
+}
+
+.search-cart {
+  display: flex;
+  align-items: center;
+  flex-basis: 30%;
+}
+
+.search-cart input {
+  margin: 0 20px;
+  border: 2px solid white;
+  background-color: rgba(0,0,0,0);
+  color: white;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70%;
+  padding: 0 35px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: gray;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+}
+
+button {
+  padding: 15px 35px;
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white;
+  border-radius: 20px;
+}
+
+button:first-child {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #333333;
+}
+
+button:nth-child(2) {
+  background-color: #333333;
+  border: 2px solid #333333;
+}
+
+.biscuits {
+  height: 500px;
+  background-color: white;
+  color: black;
+}
